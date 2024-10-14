@@ -1,0 +1,12 @@
+[tool.poetry]
+package-mode = false
+authors = ["The ONE Campaign"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
