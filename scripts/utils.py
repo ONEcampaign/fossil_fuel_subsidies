@@ -19,6 +19,7 @@ def add_aggregates(df: pd.DataFrame,
         agg_cols: The columns to aggregate
         id_cols: The columns to keep as identifiers
         value_col: The column to aggregate. Default is 'value'
+        agg_value: The value to use for the non-aggregated columns. Default is 'all'
         agg_func: The aggregation function to use. Default is 'sum'
     """
 
