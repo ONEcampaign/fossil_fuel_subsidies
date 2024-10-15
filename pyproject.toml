@@ -6,6 +6,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.2.3"
+country-converter = "^1.2"
 
 
 [build-system]
