@@ -63,7 +63,7 @@ def format_cf_data() -> None:
      .assign(country_code = lambda d: convert_entities(d.country_name, additional_mapping={'EU Institutions (excl. EIB)': "EUI"}),
              units = "USD current")
      .reset_index(drop=True)
-     .to_csv(Paths.output / "climate_finance_providers.csv", index=False)
+     .to_csv(Paths.output / "climate_finance_commitments_providers.csv", index=False)
      )
 
     logger.info("Climate Finance data formatted and saved to output folder.")
