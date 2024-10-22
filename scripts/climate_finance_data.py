@@ -148,6 +148,7 @@ def climate_finance_commitments(start_year: int, end_year: int) -> pd.DataFrame:
 def export_available_donors_and_years(df: pd.DataFrame):
     provider = (
         df.filter(["year", "provider"])
+        .sort_values(["year", "provider"])
         .drop_duplicates()
         .groupby("provider")["year"]
         .apply(lambda x: ", ".join(x.astype(str)))
