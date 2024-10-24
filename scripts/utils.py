@@ -6,12 +6,15 @@ import country_converter as coco
 import numpy as np
 
 
-def add_aggregates(df: pd.DataFrame,
-                   agg_cols: list,
-                   id_cols: list, value_col: str = "value",
-                   agg_value = "all",
-                   *,
-                   agg_func: str = 'sum'):
+def add_aggregates(
+    df: pd.DataFrame,
+    agg_cols: list,
+    id_cols: list,
+    value_col: str = "value",
+    agg_value="all",
+    *,
+    agg_func: str = "sum"
+):
     """Add aggregate rows to the DataFrame for all combinations of the agg_cols.
 
     Args:
@@ -30,7 +33,9 @@ def add_aggregates(df: pd.DataFrame,
     for i in range(1, len(agg_cols) + 1):
         for combo in combinations(agg_cols, i):
             group_cols = list(combo) + id_cols
-            grouped_df = df.groupby(group_cols, as_index=False).agg({value_col: agg_func})
+            grouped_df = df.groupby(group_cols, as_index=False).agg(
+                {value_col: agg_func}
+            )
 
             # Set the non-used agg_cols to 'all'
             for col in agg_cols:
@@ -49,7 +54,13 @@ def add_aggregates(df: pd.DataFrame,
     return pd.concat(aggregate_dfs, ignore_index=True)
 
 
-def convert_entities(entity_col: pd.Series, from_type = None, to_type="ISO3", not_found = np.nan, additional_mapping: dict= None) -> pd.Series:
+def convert_entities(
+    entity_col: pd.Series,
+    from_type=None,
+    to_type="ISO3",
+    not_found=np.nan,
+    additional_mapping: dict = None,
+) -> pd.Series:
     """Convert entities in a column to a different type.
 
     Args:
@@ -63,7 +74,10 @@ def convert_entities(entity_col: pd.Series, from_type = None, to_type="ISO3", no
         A Series with the converted entities
     """
 
-    mapper = {v: coco.convert(v, src=from_type, to=to_type, not_found=not_found) for v in entity_col.unique()}
+    mapper = {
+        v: coco.convert(v, src=from_type, to=to_type, not_found=not_found)
+        for v in entity_col.unique()
+    }
 
     if additional_mapping:
         mapper.update(additional_mapping)
