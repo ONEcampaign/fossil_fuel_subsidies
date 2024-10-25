@@ -1,6 +1,7 @@
 """Formatting for the raw datasets"""
 
 import pandas as pd
+from bblocks.dataframe_tools.add import add_income_level_column
 
 from scripts.config import Paths
 from scripts.logger import logger
@@ -9,8 +10,8 @@ from scripts.utils import convert_entities, add_aggregates
 FFS = pd.read_csv(
     Paths.raw_data / "fossil_fuel_subsidies.csv"
 )  # Fossil Fuel Subsidies data
-CF = pd.read_csv(
-    Paths.raw_data / "climate_finance_commitments_all.csv"
+CF = pd.read_parquet(
+    Paths.raw_data / "climate_finance_provider_perspective_data.parquet"
 )  # Climate Finance data
 
 
@@ -71,19 +72,19 @@ def format_cf_data() -> None:
     - Save the formatted data to the output folder
     """
 
-    (
-        CF.rename(columns={"indicator": "marker", "provider": "country_name"})
-        .drop(columns=["methodology", "flow_type"])
-        .pipe(add_aggregates, ["marker"], ["year", "country_name"])
-        .assign(
-            country_code=lambda d: convert_entities(
-                d.country_name,
-                additional_mapping={"EU Institutions (excl. EIB)": "EUI"},
-            ),
+    (CF
+    .loc[lambda d: d.year >=2010]
+    .rename(columns={"indicator": "marker", "provider": "provider_name"})
+    .drop(columns=["methodology", "flow_type", "oecd_provider_code"])
+    .groupby(['year', 'provider_name']).agg({'value': 'sum'})
+    .reset_index()
+    .assign(iso3_code=lambda d: convert_entities(d.provider_name,),
             units="USD current",
-        )
-        .reset_index(drop=True)
-        .to_csv(Paths.output / "climate_finance_commitments_providers.csv", index=False)
+            )
+    .pipe(add_income_level_column, 'iso3_code', id_type = 'ISO3')
+    .sort_values(['provider_name', 'year'])
+    .reset_index(drop=True)
+     .to_csv(Paths.output / "climate_finance_commitments.csv", index=False)
     )
 
     logger.info("Climate Finance data formatted and saved to output folder.")

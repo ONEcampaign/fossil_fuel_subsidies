@@ -1,0 +1,521 @@
+year,provider_name,value,iso3_code,units,income_level
+2010,Australia,421120555.0,AUS,USD current,High income
+2011,Australia,624569371.0,AUS,USD current,High income
+2012,Australia,634720062.0,AUS,USD current,High income
+2013,Australia,554511464.0,AUS,USD current,High income
+2014,Australia,475553344.0,AUS,USD current,High income
+2015,Australia,449973112.0,AUS,USD current,High income
+2016,Australia,573930224.0,AUS,USD current,High income
+2017,Australia,486369696.0,AUS,USD current,High income
+2018,Australia,466908512.0,AUS,USD current,High income
+2019,Australia,712381024.0,AUS,USD current,High income
+2020,Australia,831903536.0,AUS,USD current,High income
+2021,Australia,1084226176.0,AUS,USD current,High income
+2022,Australia,1192759416.0,AUS,USD current,High income
+2010,Austria,25580784.0,AUT,USD current,High income
+2011,Austria,39280310.0,AUT,USD current,High income
+2012,Austria,27992973.75,AUT,USD current,High income
+2013,Austria,156983144.0,AUT,USD current,High income
+2014,Austria,117190336.0,AUT,USD current,High income
+2015,Austria,117972438.0,AUT,USD current,High income
+2016,Austria,234474668.0,AUT,USD current,High income
+2017,Austria,154617652.0,AUT,USD current,High income
+2018,Austria,355445364.0,AUT,USD current,High income
+2019,Austria,435021808.0,AUT,USD current,High income
+2020,Austria,340221728.0,AUT,USD current,High income
+2021,Austria,361924184.0,AUT,USD current,High income
+2022,Austria,500153472.0,AUT,USD current,High income
+2014,Azerbaijan,313645.09375,AZE,USD current,Upper middle income
+2015,Azerbaijan,233685.15625,AZE,USD current,Upper middle income
+2016,Azerbaijan,1643255.5,AZE,USD current,Upper middle income
+2017,Azerbaijan,4079037.0,AZE,USD current,Upper middle income
+2018,Azerbaijan,7249097.5,AZE,USD current,Upper middle income
+2019,Azerbaijan,4042221.75,AZE,USD current,Upper middle income
+2020,Azerbaijan,1443545.5,AZE,USD current,Upper middle income
+2022,Azerbaijan,1438103.0,AZE,USD current,Upper middle income
+2010,Belgium,191748248.0,BEL,USD current,High income
+2011,Belgium,245891915.0,BEL,USD current,High income
+2012,Belgium,102789892.0,BEL,USD current,High income
+2013,Belgium,356799880.0,BEL,USD current,High income
+2014,Belgium,495135712.0,BEL,USD current,High income
+2015,Belgium,365394632.0,BEL,USD current,High income
+2016,Belgium,302240624.0,BEL,USD current,High income
+2017,Belgium,396248620.0,BEL,USD current,High income
+2018,Belgium,360204336.0,BEL,USD current,High income
+2019,Belgium,464960384.0,BEL,USD current,High income
+2020,Belgium,459253120.0,BEL,USD current,High income
+2021,Belgium,445219520.0,BEL,USD current,High income
+2022,Belgium,422986816.0,BEL,USD current,High income
+2015,Bulgaria,243876.796875,BGR,USD current,Upper middle income
+2016,Bulgaria,2308266.75,BGR,USD current,Upper middle income
+2017,Bulgaria,449775.0,BGR,USD current,Upper middle income
+2018,Bulgaria,695534.375,BGR,USD current,Upper middle income
+2019,Bulgaria,786632.625,BGR,USD current,Upper middle income
+2020,Bulgaria,2247239.5,BGR,USD current,Upper middle income
+2021,Bulgaria,541353.5625,BGR,USD current,Upper middle income
+2022,Bulgaria,1401210.0,BGR,USD current,Upper middle income
+2010,Canada,95947242.0,CAN,USD current,High income
+2011,Canada,549096155.0,CAN,USD current,High income
+2012,Canada,784711872.0,CAN,USD current,High income
+2013,Canada,478913328.0,CAN,USD current,High income
+2014,Canada,284722656.0,CAN,USD current,High income
+2015,Canada,483636592.0,CAN,USD current,High income
+2016,Canada,894131312.0,CAN,USD current,High income
+2017,Canada,555750832.0,CAN,USD current,High income
+2018,Canada,837664896.0,CAN,USD current,High income
+2019,Canada,883300448.0,CAN,USD current,High income
+2020,Canada,748377660.0,CAN,USD current,High income
+2021,Canada,904346928.0,CAN,USD current,High income
+2022,Canada,1947453728.0,CAN,USD current,High income
+2019,Chinese Taipei,5805533.5,TWN,USD current,High income
+2020,Chinese Taipei,52256100.0,TWN,USD current,High income
+2018,Croatia,269475.53125,HRV,USD current,High income
+2019,Croatia,997550.625,HRV,USD current,High income
+2020,Croatia,1285290.0,HRV,USD current,High income
+2021,Croatia,270104.96875,HRV,USD current,High income
+2022,Croatia,328827.46875,HRV,USD current,High income
+2015,Cyprus,54554.0,CYP,USD current,High income
+2018,Cyprus,102518.0,CYP,USD current,High income
+2019,Cyprus,1121248.25,CYP,USD current,High income
+2020,Cyprus,933709.9375,CYP,USD current,High income
+2021,Cyprus,804113.375,CYP,USD current,High income
+2022,Cyprus,893199.0,CYP,USD current,High income
+2011,Czechia,276480.0,CZE,USD current,High income
+2012,Czechia,6204117.0625,CZE,USD current,High income
+2013,Czechia,7585986.875,CZE,USD current,High income
+2014,Czechia,10864418.7109375,CZE,USD current,High income
+2015,Czechia,10804250.0,CZE,USD current,High income
+2016,Czechia,10172675.0,CZE,USD current,High income
+2017,Czechia,8761608.5,CZE,USD current,High income
+2018,Czechia,10892068.25,CZE,USD current,High income
+2019,Czechia,13342819.625,CZE,USD current,High income
+2020,Czechia,14677129.5,CZE,USD current,High income
+2021,Czechia,15887334.25,CZE,USD current,High income
+2022,Czechia,13159108.25,CZE,USD current,High income
+2010,Denmark,414398345.0,DNK,USD current,High income
+2011,Denmark,283657938.0,DNK,USD current,High income
+2012,Denmark,372758233.0,DNK,USD current,High income
+2013,Denmark,441159324.0,DNK,USD current,High income
+2014,Denmark,541662376.0,DNK,USD current,High income
+2015,Denmark,280344152.0,DNK,USD current,High income
+2016,Denmark,193513836.0,DNK,USD current,High income
+2017,Denmark,282291048.0,DNK,USD current,High income
+2018,Denmark,399897368.0,DNK,USD current,High income
+2019,Denmark,635095616.0,DNK,USD current,High income
+2020,Denmark,532560608.0,DNK,USD current,High income
+2021,Denmark,668504864.0,DNK,USD current,High income
+2022,Denmark,591995416.0,DNK,USD current,High income
+2010,EU Institutions,1250834286.0,,USD current,
+2011,EU Institutions,1738967207.0,,USD current,
+2012,EU Institutions (excl. EIB),2376623208.625,,USD current,
+2013,EU Institutions (excl. EIB),2750500651.3984375,,USD current,
+2014,EU Institutions (excl. EIB),1816509504.0,,USD current,
+2015,EU Institutions (excl. EIB),3191873885.25,,USD current,
+2016,EU Institutions (excl. EIB),5880199734.375,,USD current,
+2017,EU Institutions (excl. EIB),5532768422.6875,,USD current,
+2018,EU Institutions (excl. EIB),5565185976.0,,USD current,
+2019,EU Institutions (excl. EIB),5595418965.0625,,USD current,
+2020,EU Institutions (excl. EIB),4579815808.0,,USD current,
+2021,EU Institutions (excl. EIB),5723814254.25,,USD current,
+2022,EU Institutions (excl. EIB),7838769823.957031,,USD current,
+2013,Estonia,334193.5625,EST,USD current,High income
+2014,Estonia,752315.9375,EST,USD current,High income
+2015,Estonia,1362709.375,EST,USD current,High income
+2016,Estonia,779784.0,EST,USD current,High income
+2017,Estonia,394707.3125,EST,USD current,High income
+2018,Estonia,510651.09375,EST,USD current,High income
+2019,Estonia,571910.5625,EST,USD current,High income
+2020,Estonia,960585.09375,EST,USD current,High income
+2021,Estonia,2790515.875,EST,USD current,High income
+2022,Estonia,2421598.390625,EST,USD current,High income
+2010,Finland,246589804.0,FIN,USD current,High income
+2011,Finland,361956045.0,FIN,USD current,High income
+2012,Finland,144089249.5,FIN,USD current,High income
+2013,Finland,169701144.0,FIN,USD current,High income
+2014,Finland,216453280.0,FIN,USD current,High income
+2015,Finland,163539876.0,FIN,USD current,High income
+2016,Finland,103515790.0,FIN,USD current,High income
+2017,Finland,221014096.0,FIN,USD current,High income
+2018,Finland,175149720.0,FIN,USD current,High income
+2019,Finland,284171887.0,FIN,USD current,High income
+2020,Finland,259838472.0,FIN,USD current,High income
+2021,Finland,455251056.0,FIN,USD current,High income
+2022,Finland,203127720.0,FIN,USD current,High income
+2010,France,3196592520.0,FRA,USD current,High income
+2011,France,1972004463.0,FRA,USD current,High income
+2012,France,4751460233.0,FRA,USD current,High income
+2013,France,2765924512.0,FRA,USD current,High income
+2014,France,3339349984.0,FRA,USD current,High income
+2015,France,4020407616.0,FRA,USD current,High income
+2016,France,3384218624.0,FRA,USD current,High income
+2017,France,5211286592.0,FRA,USD current,High income
+2018,France,2763740224.0,FRA,USD current,High income
+2019,France,6060038784.0,FRA,USD current,High income
+2020,France,7904167648.0,FRA,USD current,High income
+2021,France,8503958344.0,FRA,USD current,High income
+2022,France,9574580480.0,FRA,USD current,High income
+2010,Germany,3476314014.0,DEU,USD current,High income
+2011,Germany,4599120782.0,DEU,USD current,High income
+2012,Germany,3673832720.0,DEU,USD current,High income
+2013,Germany,4460819488.0,DEU,USD current,High income
+2014,Germany,7796556000.0,DEU,USD current,High income
+2015,Germany,5629361952.0,DEU,USD current,High income
+2016,Germany,7378621056.0,DEU,USD current,High income
+2017,Germany,7343885120.0,DEU,USD current,High income
+2018,Germany,8840272384.0,DEU,USD current,High income
+2019,Germany,8692651136.0,DEU,USD current,High income
+2020,Germany,8971566592.0,DEU,USD current,High income
+2021,Germany,10556995968.0,DEU,USD current,High income
+2022,Germany,13488980864.0,DEU,USD current,High income
+2010,Greece,4447608.0,GRC,USD current,High income
+2012,Greece,1686133.96875,GRC,USD current,High income
+2013,Greece,756009.71875,GRC,USD current,High income
+2014,Greece,361371.53125,GRC,USD current,High income
+2015,Greece,318340.546875,GRC,USD current,High income
+2016,Greece,1149032.40625,GRC,USD current,High income
+2017,Greece,4046436.828125,GRC,USD current,High income
+2018,Greece,5888625.7607421875,GRC,USD current,High income
+2019,Greece,3341198.0,GRC,USD current,High income
+2020,Greece,3560591.14453125,GRC,USD current,High income
+2021,Greece,8849371.0,GRC,USD current,High income
+2022,Greece,280634.65625,GRC,USD current,High income
+2014,Hungary,4599564.5,HUN,USD current,High income
+2015,Hungary,3606056.5,HUN,USD current,High income
+2016,Hungary,7000767.0,HUN,USD current,High income
+2017,Hungary,2857649.25,HUN,USD current,High income
+2018,Hungary,2832307.0,HUN,USD current,High income
+2019,Hungary,6244661.46875,HUN,USD current,High income
+2020,Hungary,34369163.0,HUN,USD current,High income
+2021,Hungary,22418193.0,HUN,USD current,High income
+2022,Hungary,13538312.9375,HUN,USD current,High income
+2012,Iceland,7938562.375,ISL,USD current,High income
+2013,Iceland,10781359.375,ISL,USD current,High income
+2014,Iceland,11279705.875,ISL,USD current,High income
+2015,Iceland,10333682.75,ISL,USD current,High income
+2016,Iceland,10963256.5,ISL,USD current,High income
+2017,Iceland,12303458.125,ISL,USD current,High income
+2018,Iceland,14590760.75,ISL,USD current,High income
+2019,Iceland,16917600.625,ISL,USD current,High income
+2020,Iceland,13641065.0,ISL,USD current,High income
+2021,Iceland,21299038.0,ISL,USD current,High income
+2022,Iceland,23398853.5,ISL,USD current,High income
+2010,Ireland,24171415.0,IRL,USD current,High income
+2011,Ireland,64713891.0,IRL,USD current,High income
+2012,Ireland,91746239.0625,IRL,USD current,High income
+2013,Ireland,84919729.0,IRL,USD current,High income
+2014,Ireland,95474790.0,IRL,USD current,High income
+2015,Ireland,75970723.0,IRL,USD current,High income
+2016,Ireland,99291319.0,IRL,USD current,High income
+2017,Ireland,108043217.0,IRL,USD current,High income
+2018,Ireland,90270014.0,IRL,USD current,High income
+2019,Ireland,129029640.0,IRL,USD current,High income
+2020,Ireland,115284074.0,IRL,USD current,High income
+2021,Ireland,136207904.0,IRL,USD current,High income
+2022,Ireland,179937976.0,IRL,USD current,High income
+2015,Israel,2277122.75,ISR,USD current,High income
+2016,Israel,20118980.0,ISR,USD current,High income
+2017,Israel,1491200.375,ISR,USD current,High income
+2018,Israel,11676534.0,ISR,USD current,High income
+2019,Israel,7991666.5,ISR,USD current,High income
+2020,Israel,5888813.5,ISR,USD current,High income
+2021,Israel,19690652.0,ISR,USD current,High income
+2022,Israel,9342014.0,ISR,USD current,High income
+2010,Italy,39707138.0,ITA,USD current,High income
+2011,Italy,96114132.0,ITA,USD current,High income
+2012,Italy,90192558.5,ITA,USD current,High income
+2013,Italy,230325168.0,ITA,USD current,High income
+2014,Italy,254199420.0,ITA,USD current,High income
+2015,Italy,404235392.0,ITA,USD current,High income
+2016,Italy,222025076.0,ITA,USD current,High income
+2017,Italy,620194784.0,ITA,USD current,High income
+2018,Italy,438735928.0,ITA,USD current,High income
+2019,Italy,503053184.0,ITA,USD current,High income
+2020,Italy,894737984.0,ITA,USD current,High income
+2021,Italy,900554816.0,ITA,USD current,High income
+2022,Italy,583962288.0,ITA,USD current,High income
+2010,Japan,7757429563.0,JPN,USD current,High income
+2011,Japan,4700119968.0,JPN,USD current,High income
+2012,Japan,7127413472.0,JPN,USD current,High income
+2013,Japan,7706582656.0,JPN,USD current,High income
+2014,Japan,7313473536.0,JPN,USD current,High income
+2015,Japan,9745345888.0,JPN,USD current,High income
+2016,Japan,9777270016.0,JPN,USD current,High income
+2017,Japan,8070313432.0,JPN,USD current,High income
+2018,Japan,10671362080.0,JPN,USD current,High income
+2019,Japan,7442482840.0,JPN,USD current,High income
+2020,Japan,16323749312.0,JPN,USD current,High income
+2021,Japan,9747008608.0,JPN,USD current,High income
+2022,Japan,12678123968.0,JPN,USD current,High income
+2013,Kazakhstan,20221.75,KAZ,USD current,Upper middle income
+2014,Kazakhstan,152322.875,KAZ,USD current,Upper middle income
+2015,Kazakhstan,266624.125,KAZ,USD current,Upper middle income
+2016,Kazakhstan,290009.75,KAZ,USD current,Upper middle income
+2017,Kazakhstan,15545.7001953125,KAZ,USD current,Upper middle income
+2018,Kazakhstan,761754.9375,KAZ,USD current,Upper middle income
+2019,Kazakhstan,1036728.625,KAZ,USD current,Upper middle income
+2020,Kazakhstan,782948.361328125,KAZ,USD current,Upper middle income
+2021,Kazakhstan,131711.515625,KAZ,USD current,Upper middle income
+2022,Kazakhstan,90419.125,KAZ,USD current,Upper middle income
+2010,Korea,263260995.0,KOR,USD current,High income
+2011,Korea,88913778.0,KOR,USD current,High income
+2012,Korea,176204368.5,KOR,USD current,High income
+2013,Korea,304990860.0,KOR,USD current,High income
+2014,Korea,299959928.0,KOR,USD current,High income
+2015,Korea,385743244.0,KOR,USD current,High income
+2016,Korea,360352704.0,KOR,USD current,High income
+2017,Korea,390061840.0,KOR,USD current,High income
+2018,Korea,348373760.0,KOR,USD current,High income
+2019,Korea,1194019940.0,KOR,USD current,High income
+2020,Korea,323965120.0,KOR,USD current,High income
+2021,Korea,1623424784.0,KOR,USD current,High income
+2022,Korea,2316210512.0,KOR,USD current,High income
+2013,Kuwait,13161806.0,KWT,USD current,High income
+2014,Kuwait,8835019.0,KWT,USD current,High income
+2016,Kuwait,4490160.0,KWT,USD current,High income
+2017,Kuwait,9426050.0,KWT,USD current,High income
+2020,Kuwait,9043914.0,KWT,USD current,High income
+2015,Latvia,349968.6875,LVA,USD current,High income
+2016,Latvia,454260.6875,LVA,USD current,High income
+2017,Latvia,439359.880859375,LVA,USD current,High income
+2018,Latvia,491482.72265625,LVA,USD current,High income
+2019,Latvia,609659.6889648438,LVA,USD current,High income
+2020,Latvia,1075654.6638183594,LVA,USD current,High income
+2021,Latvia,1031984.1416015625,LVA,USD current,High income
+2022,Latvia,4270558.734375,LVA,USD current,High income
+2021,Liechtenstein,734353.375,LIE,USD current,High income
+2022,Liechtenstein,8228536.6953125,LIE,USD current,High income
+2014,Lithuania,209964.96875,LTU,USD current,High income
+2015,Lithuania,1094256.609375,LTU,USD current,High income
+2016,Lithuania,1391061.75,LTU,USD current,High income
+2017,Lithuania,379348.453125,LTU,USD current,High income
+2018,Lithuania,841055.125,LTU,USD current,High income
+2019,Lithuania,1378645.375,LTU,USD current,High income
+2020,Lithuania,2220437.375,LTU,USD current,High income
+2021,Lithuania,2659218.0,LTU,USD current,High income
+2022,Lithuania,6480146.25,LTU,USD current,High income
+2010,Luxembourg,6148214.0,LUX,USD current,High income
+2011,Luxembourg,19902976.0,LUX,USD current,High income
+2012,Luxembourg,24760189.0,LUX,USD current,High income
+2013,Luxembourg,34053187.5,LUX,USD current,High income
+2014,Luxembourg,44978711.5,LUX,USD current,High income
+2015,Luxembourg,36907703.5,LUX,USD current,High income
+2016,Luxembourg,47824465.0,LUX,USD current,High income
+2017,Luxembourg,33033211.0,LUX,USD current,High income
+2018,Luxembourg,35992920.5,LUX,USD current,High income
+2019,Luxembourg,33597509.0,LUX,USD current,High income
+2020,Luxembourg,14888221.5,LUX,USD current,High income
+2021,Luxembourg,39099430.0,LUX,USD current,High income
+2022,Luxembourg,67305798.0,LUX,USD current,High income
+2015,Malta,323371.4375,MLT,USD current,High income
+2016,Malta,2641.820068359375,MLT,USD current,High income
+2017,Malta,745086.75,MLT,USD current,High income
+2018,Malta,189934.640625,MLT,USD current,High income
+2019,Malta,307575.40625,MLT,USD current,High income
+2020,Malta,55495.96875,MLT,USD current,High income
+2021,Malta,225217.9375,MLT,USD current,High income
+2022,Malta,1299927.25,MLT,USD current,High income
+2021,Monaco,7843292.25,MCO,USD current,High income
+2022,Monaco,1430390.0625,MCO,USD current,High income
+2010,Netherlands,831276281.0,NLD,USD current,High income
+2011,Netherlands,229657118.0,NLD,USD current,High income
+2012,Netherlands,441085136.0,NLD,USD current,High income
+2013,Netherlands,826136152.0,NLD,USD current,High income
+2014,Netherlands,514774166.0,NLD,USD current,High income
+2015,Netherlands,1124085424.0,NLD,USD current,High income
+2016,Netherlands,752314256.0,NLD,USD current,High income
+2017,Netherlands,802313056.0,NLD,USD current,High income
+2018,Netherlands,1079725344.0,NLD,USD current,High income
+2019,Netherlands,1515619232.0,NLD,USD current,High income
+2020,Netherlands,1955497760.0,NLD,USD current,High income
+2021,Netherlands,1266903872.0,NLD,USD current,High income
+2022,Netherlands,2018632832.0,NLD,USD current,High income
+2010,New Zealand,34505345.0,NZL,USD current,High income
+2011,New Zealand,35252184.0,NZL,USD current,High income
+2012,New Zealand,19678416.5625,NZL,USD current,High income
+2013,New Zealand,38366634.25,NZL,USD current,High income
+2014,New Zealand,97438025.5,NZL,USD current,High income
+2015,New Zealand,52748187.0,NZL,USD current,High income
+2016,New Zealand,33726376.5,NZL,USD current,High income
+2017,New Zealand,58269036.5,NZL,USD current,High income
+2018,New Zealand,84305756.0,NZL,USD current,High income
+2019,New Zealand,126332220.0,NZL,USD current,High income
+2020,New Zealand,154447857.0,NZL,USD current,High income
+2021,New Zealand,135909703.0,NZL,USD current,High income
+2022,New Zealand,118446477.0,NZL,USD current,High income
+2010,Norway,944884558.0,NOR,USD current,High income
+2011,Norway,796600934.0,NOR,USD current,High income
+2012,Norway,914106288.0,NOR,USD current,High income
+2013,Norway,1103530256.0,NOR,USD current,High income
+2014,Norway,1394719584.0,NOR,USD current,High income
+2015,Norway,911504320.0,NOR,USD current,High income
+2016,Norway,661936776.0,NOR,USD current,High income
+2017,Norway,995464588.0,NOR,USD current,High income
+2018,Norway,1168247480.0,NOR,USD current,High income
+2019,Norway,771742672.0,NOR,USD current,High income
+2020,Norway,915206168.0,NOR,USD current,High income
+2021,Norway,1703488168.0,NOR,USD current,High income
+2022,Norway,1790065488.0,NOR,USD current,High income
+2013,Poland,10347140.25,POL,USD current,High income
+2014,Poland,5890668.25,POL,USD current,High income
+2015,Poland,8904321.390625,POL,USD current,High income
+2016,Poland,24310332.734375,POL,USD current,High income
+2017,Poland,17146129.0078125,POL,USD current,High income
+2018,Poland,76705439.8125,POL,USD current,High income
+2019,Poland,34594112.0,POL,USD current,High income
+2020,Poland,16668350.5,POL,USD current,High income
+2021,Poland,12390230.625,POL,USD current,High income
+2022,Poland,20017403.75,POL,USD current,High income
+2010,Portugal,53473063.0,PRT,USD current,High income
+2011,Portugal,24714960.0,PRT,USD current,High income
+2012,Portugal,20190893.8125,PRT,USD current,High income
+2013,Portugal,23807932.8125,PRT,USD current,High income
+2014,Portugal,14953284.5,PRT,USD current,High income
+2015,Portugal,22393217.5,PRT,USD current,High income
+2016,Portugal,6752727.25,PRT,USD current,High income
+2017,Portugal,21810461.125,PRT,USD current,High income
+2018,Portugal,14262535.375,PRT,USD current,High income
+2019,Portugal,21937845.6875,PRT,USD current,High income
+2020,Portugal,4798556.0791015625,PRT,USD current,High income
+2021,Portugal,7667564.125,PRT,USD current,High income
+2022,Portugal,14673264.3125,PRT,USD current,High income
+2021,Qatar,500000.0,QAT,USD current,High income
+2022,Qatar,13320925.0,QAT,USD current,High income
+2014,Romania,1399039.125,ROU,USD current,High income
+2015,Romania,2335129.0,ROU,USD current,High income
+2016,Romania,2361423.0625,ROU,USD current,High income
+2017,Romania,78711.234375,ROU,USD current,High income
+2018,Romania,2689631.873046875,ROU,USD current,High income
+2019,Romania,2301337.5,ROU,USD current,High income
+2020,Romania,4838265.796875,ROU,USD current,High income
+2021,Romania,7835223.716323853,ROU,USD current,High income
+2022,Romania,5923817.5,ROU,USD current,High income
+2015,Russia,26577392.0,RUS,USD current,Upper middle income
+2016,Russia,17247736.0,RUS,USD current,Upper middle income
+2017,Russia,110774608.0,RUS,USD current,Upper middle income
+2018,Russia,101277552.0,RUS,USD current,Upper middle income
+2019,Russia,106348528.0,RUS,USD current,Upper middle income
+2020,Russia,25149564.0,RUS,USD current,Upper middle income
+2015,Saudi Arabia,18583508.0,SAU,USD current,High income
+2016,Saudi Arabia,57633684.0,SAU,USD current,High income
+2017,Saudi Arabia,54781312.0,SAU,USD current,High income
+2019,Saudi Arabia,12933107.0,SAU,USD current,High income
+2020,Saudi Arabia,23007840.0,SAU,USD current,High income
+2021,Saudi Arabia,36681948.0,SAU,USD current,High income
+2022,Saudi Arabia,71339360.0,SAU,USD current,High income
+2013,Slovak Republic,1359220.8125,SVK,USD current,High income
+2014,Slovak Republic,1051806.375,SVK,USD current,High income
+2015,Slovak Republic,2349700.375,SVK,USD current,High income
+2016,Slovak Republic,385362.46875,SVK,USD current,High income
+2017,Slovak Republic,1502640.5,SVK,USD current,High income
+2018,Slovak Republic,1995325.75,SVK,USD current,High income
+2019,Slovak Republic,6792725.75,SVK,USD current,High income
+2020,Slovak Republic,2360749.625,SVK,USD current,High income
+2021,Slovak Republic,4152706.375,SVK,USD current,High income
+2022,Slovak Republic,5654417.1875,SVK,USD current,High income
+2010,Slovenia,1177482.0,SVN,USD current,High income
+2011,Slovenia,2129119.0,SVN,USD current,High income
+2012,Slovenia,3051727.890625,SVN,USD current,High income
+2013,Slovenia,4202163.5,SVN,USD current,High income
+2014,Slovenia,2737754.8125,SVN,USD current,High income
+2015,Slovenia,2875401.34375,SVN,USD current,High income
+2016,Slovenia,3122135.1875,SVN,USD current,High income
+2017,Slovenia,2597303.84375,SVN,USD current,High income
+2018,Slovenia,9859152.5,SVN,USD current,High income
+2019,Slovenia,6257229.1875,SVN,USD current,High income
+2020,Slovenia,2588431.265625,SVN,USD current,High income
+2021,Slovenia,5533798.5625,SVN,USD current,High income
+2022,Slovenia,5793617.625,SVN,USD current,High income
+2010,Spain,1097658646.0,ESP,USD current,High income
+2011,Spain,165065303.0,ESP,USD current,High income
+2012,Spain,208726569.53125,ESP,USD current,High income
+2013,Spain,192414874.0,ESP,USD current,High income
+2014,Spain,254200516.0,ESP,USD current,High income
+2015,Spain,75456802.0,ESP,USD current,High income
+2016,Spain,152805342.0,ESP,USD current,High income
+2017,Spain,278370884.0,ESP,USD current,High income
+2018,Spain,373404864.0,ESP,USD current,High income
+2019,Spain,369715148.0,ESP,USD current,High income
+2020,Spain,251870236.0,ESP,USD current,High income
+2021,Spain,272349272.0,ESP,USD current,High income
+2022,Spain,413714856.0,ESP,USD current,High income
+2010,Sweden,570005178.0,SWE,USD current,High income
+2011,Sweden,425711701.0,SWE,USD current,High income
+2012,Sweden,616539968.0,SWE,USD current,High income
+2013,Sweden,771635184.0,SWE,USD current,High income
+2014,Sweden,1081861152.0,SWE,USD current,High income
+2015,Sweden,1038953232.0,SWE,USD current,High income
+2016,Sweden,802435168.0,SWE,USD current,High income
+2017,Sweden,694855152.0,SWE,USD current,High income
+2018,Sweden,1322323584.0,SWE,USD current,High income
+2019,Sweden,913631040.0,SWE,USD current,High income
+2020,Sweden,1352103344.0,SWE,USD current,High income
+2021,Sweden,963191088.0,SWE,USD current,High income
+2022,Sweden,1094516448.0,SWE,USD current,High income
+2010,Switzerland,251318522.0,CHE,USD current,High income
+2011,Switzerland,419446203.0,CHE,USD current,High income
+2012,Switzerland,419124839.0,CHE,USD current,High income
+2013,Switzerland,613551888.0,CHE,USD current,High income
+2014,Switzerland,572553672.0,CHE,USD current,High income
+2015,Switzerland,363103936.0,CHE,USD current,High income
+2016,Switzerland,463737024.0,CHE,USD current,High income
+2017,Switzerland,617957208.0,CHE,USD current,High income
+2018,Switzerland,583217824.0,CHE,USD current,High income
+2019,Switzerland,602178176.0,CHE,USD current,High income
+2020,Switzerland,681601056.0,CHE,USD current,High income
+2021,Switzerland,966495936.0,CHE,USD current,High income
+2022,Switzerland,1216172656.0,CHE,USD current,High income
+2015,Thailand,310606.75,THA,USD current,Upper middle income
+2016,Thailand,26212376.0,THA,USD current,Upper middle income
+2017,Thailand,23175860.0,THA,USD current,Upper middle income
+2018,Thailand,19727086.0,THA,USD current,Upper middle income
+2019,Thailand,18611218.0,THA,USD current,Upper middle income
+2020,Thailand,658857.8125,THA,USD current,Upper middle income
+2021,Thailand,638205.4375,THA,USD current,Upper middle income
+2022,Thailand,254900.8125,THA,USD current,Upper middle income
+2015,Türkiye,5506493.5,TUR,USD current,Upper middle income
+2016,Türkiye,50170776.0,TUR,USD current,Upper middle income
+2017,Türkiye,26469730.0,TUR,USD current,Upper middle income
+2018,Türkiye,37029700.0,TUR,USD current,Upper middle income
+2019,Türkiye,42003096.0,TUR,USD current,Upper middle income
+2020,Türkiye,5868023.0,TUR,USD current,Upper middle income
+2021,Türkiye,9374771.0,TUR,USD current,Upper middle income
+2022,Türkiye,8316902.0,TUR,USD current,Upper middle income
+2010,United Arab Emirates,22100155.0,ARE,USD current,High income
+2011,United Arab Emirates,36391233.0,ARE,USD current,High income
+2012,United Arab Emirates,89790594.0,ARE,USD current,High income
+2013,United Arab Emirates,574045008.0,ARE,USD current,High income
+2014,United Arab Emirates,260436424.0,ARE,USD current,High income
+2015,United Arab Emirates,137702555.0,ARE,USD current,High income
+2016,United Arab Emirates,30909670.0,ARE,USD current,High income
+2017,United Arab Emirates,86048770.0,ARE,USD current,High income
+2018,United Arab Emirates,20253712.0,ARE,USD current,High income
+2019,United Arab Emirates,77474672.5,ARE,USD current,High income
+2020,United Arab Emirates,1995203.125,ARE,USD current,High income
+2021,United Arab Emirates,34228819.0,ARE,USD current,High income
+2022,United Arab Emirates,953058.4375,ARE,USD current,High income
+2010,United Kingdom,1095766650.0,GBR,USD current,High income
+2011,United Kingdom,390532198.0,GBR,USD current,High income
+2012,United Kingdom,779734688.0,GBR,USD current,High income
+2013,United Kingdom,1671452000.0,GBR,USD current,High income
+2014,United Kingdom,2114828768.0,GBR,USD current,High income
+2015,United Kingdom,3417216128.0,GBR,USD current,High income
+2016,United Kingdom,2188959872.0,GBR,USD current,High income
+2017,United Kingdom,2229768384.0,GBR,USD current,High income
+2018,United Kingdom,2114432032.0,GBR,USD current,High income
+2019,United Kingdom,2621597248.0,GBR,USD current,High income
+2020,United Kingdom,3203645232.0,GBR,USD current,High income
+2021,United Kingdom,2261871744.0,GBR,USD current,High income
+2022,United Kingdom,2602125696.0,GBR,USD current,High income
+2010,United States,827844730.0,USA,USD current,High income
+2011,United States,1121416380.0,USA,USD current,High income
+2012,United States,1498282048.0,USA,USD current,High income
+2013,United States,2536570256.0,USA,USD current,High income
+2014,United States,2142482464.0,USA,USD current,High income
+2015,United States,1761292048.0,USA,USD current,High income
+2016,United States,2972719872.0,USA,USD current,High income
+2017,United States,2191163712.0,USA,USD current,High income
+2018,United States,1518862528.0,USA,USD current,High income
+2019,United States,2081827072.0,USA,USD current,High income
+2020,United States,2329149312.0,USA,USD current,High income
+2021,United States,2450758720.0,USA,USD current,High income
+2022,United States,5870904064.0,USA,USD current,High income
