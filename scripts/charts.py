@@ -4,6 +4,7 @@ import pandas as pd
 
 from scripts.config import Paths
 
+chart_1_data = pd.read_csv(Paths.output / "chart_1_data.csv")
 chart_2_data = pd.read_csv(Paths.output / "chart_2_data.csv")
 
 
@@ -15,18 +16,17 @@ def _add_max(df, column):
     return df.assign(max_value =  df.country_name.map(max_dict))
 
 
-def format_to_billion(value):
+def format_to_billion(value, decimals = 1):
     """format value to billion"""
 
     value_in_billion = value / 1e9
 
-    # If the value is less than 1 billion, round to 1 decimal place, else round to nearest integer
-    if value_in_billion < 1:
-        formatted_value = f"${value_in_billion:.1f} billion"
-    else:
-        formatted_value = f"${int(round(value_in_billion))} billion"
+    # if decimals is more than 0
+    # if the remainer is 0, then format to integer
+    if decimals > 0 and value_in_billion % 1 == 0:
+        return f"${value_in_billion:.0f} billion"
 
-    return formatted_value
+    return f"${value_in_billion:.{decimals}f} billion"
 
 
 def create_chart_2() -> pd.DataFrame:
@@ -52,3 +52,18 @@ def create_chart_2() -> pd.DataFrame:
            )
 
     return pd.concat([_ffs, _cf], ignore_index=True)
+
+def create_chart_1() -> pd.DataFrame:
+    """Create data for chart 1"""
+
+    return (chart_1_data
+     .drop(columns = 'currency')
+     .rename(columns = {"climate_finance_commitments": "climate finance commitments", "fossil_fuel_subsidies": "fossil fuel subsidies"})
+     .melt(id_vars='year')
+     .assign(max_value =  lambda d: d.variable.map(d.loc[d.groupby(['variable'])['year'].idxmax()].set_index('variable')['value']))
+     .assign(max_value = lambda d: d.max_value.apply(format_to_billion, decimals = 0))
+     .assign(value =lambda d: d.value.where(d.variable != 'fossil fuel subsidies', -d.value))
+     .pivot(index=['year', 'variable'], columns = 'max_value', values = 'value')
+     .reset_index()
+
+     )
