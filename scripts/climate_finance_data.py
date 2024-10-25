@@ -165,5 +165,7 @@ def export_available_donors_and_years(df: pd.DataFrame):
 if __name__ == "__main__":
     # Provider perspective data starts in 2012
     data = climate_finance_commitments(2009, 2022)
-    data.to_parquet(Paths.raw_data / "climate_finance_provider_perspective_data.parquet")
+    data.to_parquet(
+        Paths.raw_data / "climate_finance_provider_perspective_data.parquet"
+    )
     # export_available_donors_and_years(data)
