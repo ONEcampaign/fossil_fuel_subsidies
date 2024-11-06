@@ -2,11 +2,8 @@
 
 import pandas as pd
 
+from scripts.analysis import chart_1_data, chart_2_data
 from scripts.config import Paths
-
-# read the data
-chart_1_data = pd.read_csv(Paths.output / "chart_1_data.csv")
-chart_2_data = pd.read_csv(Paths.output / "chart_2_data.csv")
 
 
 def _add_max(df, column):
@@ -43,13 +40,13 @@ def annotate_number(value):
     if value / 1e9 >= 0.01:
         value_in_billion = value / 1e9
 
-        if value_in_billion>1:
+        if value_in_billion > 1:
             return f"${value_in_billion:.1f} billion"
-        elif value_in_billion<1:
+        elif value_in_billion < 1:
             return f"${value_in_billion:.2f} billion"
 
     elif value / 1e9 < 0.01:
-        if value/1e6 <10:
+        if value / 1e6 < 10:
             return f"${value/1e6:.1f} million"
         else:
             return f"${value/1e6:.0f} million"
@@ -64,16 +61,19 @@ def format_number_as_text(value):
     return f"{value:,.0f}"
 
 
-def create_chart_2() -> pd.DataFrame:
+def create_chart_2(chart2: pd.DataFrame) -> pd.DataFrame:
     """Create data for chart 2"""
 
     _ffs = (
-        chart_2_data.loc[:, ["year", "country_name", "fossil_fuel_subsidies"]]
+        chart2.loc[:, ["year", "country_name", "fossil_fuel_subsidies"]]
         .pipe(_add_max, "fossil_fuel_subsidies")
         .assign(fossil_fuel_subsidies=lambda d: d.fossil_fuel_subsidies * -1)
         .assign(max_value=lambda d: d.max_value.apply(annotate_number))
-        .assign(value_annotate = lambda d: (d.fossil_fuel_subsidies*-1).apply(annotate_number)
-                )
+        .assign(
+            value_annotate=lambda d: (d.fossil_fuel_subsidies * -1).apply(
+                annotate_number
+            )
+        )
         .pivot(
             index=["country_name", "year", "value_annotate"],
             columns="max_value",
@@ -84,10 +84,14 @@ def create_chart_2() -> pd.DataFrame:
     )
 
     _cf = (
-        chart_2_data.loc[:, ["year", "country_name", "climate_finance_commitments"]]
+        chart2.loc[:, ["year", "country_name", "climate_finance_commitments"]]
         .pipe(_add_max, "climate_finance_commitments")
         .assign(max_value=lambda d: d.max_value.apply(annotate_number))
-        .assign(value_annotate = lambda d: d.climate_finance_commitments.apply(annotate_number))
+        .assign(
+            value_annotate=lambda d: d.climate_finance_commitments.apply(
+                annotate_number
+            )
+        )
         .pivot(
             index=["country_name", "year", "value_annotate"],
             columns="max_value",
@@ -100,11 +104,11 @@ def create_chart_2() -> pd.DataFrame:
     return pd.concat([_ffs, _cf], ignore_index=True)
 
 
-def create_chart_1() -> pd.DataFrame:
+def create_chart_1(chart1: pd.DataFrame) -> pd.DataFrame:
     """Create data for chart 1"""
 
     return (
-        chart_1_data.drop(columns="currency")
+        chart1.drop(columns="currency")
         .rename(
             columns={
                 "climate_finance_commitments": "climate finance commitments",
@@ -128,3 +132,18 @@ def create_chart_1() -> pd.DataFrame:
         .pivot(index=["year", "variable"], columns="max_value", values="value")
         .reset_index()
     )
+
+
+if __name__ == "__main__":
+    raw_climate = pd.read_csv(Paths.output / "climate_finance_commitments.csv")
+    raw_subsidies = pd.read_csv(Paths.output / "fossil_fuel_subsidies.csv")
+
+    chart1_data = chart_1_data(climate=raw_climate, subsidies=raw_subsidies).pipe(
+        create_chart_1
+    )
+    chart2_data = chart_2_data(climate=raw_climate, subsidies=raw_subsidies).pipe(
+        create_chart_2
+    )
+
+    chart1_data.to_csv(Paths.output / "chart_1_base.csv", index=False)
+    chart2_data.to_csv(Paths.output / "chart_2_base.csv", index=False)

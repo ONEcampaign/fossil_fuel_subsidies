@@ -1,9 +1,10 @@
 """Utility functions for the project."""
 
-import pandas as pd
 from itertools import combinations
+
 import country_converter as coco
 import numpy as np
+import pandas as pd
 
 
 def add_aggregates(
