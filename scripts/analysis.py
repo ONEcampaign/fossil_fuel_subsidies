@@ -13,7 +13,18 @@ FFS = pd.read_csv(
     Paths.output / "fossil_fuel_subsidies.csv"
 )  # fossil fuel subsidies data
 
-small_multiple_countries = ["USA", "FRA", "DEU", "GBR", "ITA", "CAN", "BEL"]
+small_multiple_countries = ["USA",
+                            "FRA",
+                            "DEU",
+                            "GBR",
+                            "ITA",
+                            "CAN",
+                            "JPN",
+                            "SAU",
+                            "AZE", # Azerbaijan
+                            # "ARE", # UAE
+                            # "BEL" # Belgium
+                            ]
 
 
 def cf_high_income_agg() -> pd.DataFrame:

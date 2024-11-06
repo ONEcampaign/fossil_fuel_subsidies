@@ -4,6 +4,7 @@ import pandas as pd
 
 from scripts.config import Paths
 
+# read the data
 chart_1_data = pd.read_csv(Paths.output / "chart_1_data.csv")
 chart_2_data = pd.read_csv(Paths.output / "chart_2_data.csv")
 
@@ -24,11 +25,43 @@ def format_to_billion(value, decimals=1):
     value_in_billion = value / 1e9
 
     # if decimals is more than 0
-    # if the remainer is 0, then format to integer
+    # if the remainder is 0, then format to integer
     if decimals > 0 and value_in_billion % 1 == 0:
         return f"${value_in_billion:.0f} billion"
 
     return f"${value_in_billion:.{decimals}f} billion"
+
+
+def annotate_number(value):
+    """This function takes a number
+    If the value in billions is more than 0.01, then return the value in billions
+    If the value in billions is less than 0.01, then return the value in millions
+    If the value in billions is starts at the 2nd decimal, then return the value in billions with 2 decimals
+    Otherwise return only 1 decimal
+    """
+
+    if value / 1e9 >= 0.01:
+        value_in_billion = value / 1e9
+
+        if value_in_billion>1:
+            return f"${value_in_billion:.1f} billion"
+        elif value_in_billion<1:
+            return f"${value_in_billion:.2f} billion"
+
+    elif value / 1e9 < 0.01:
+        if value/1e6 <10:
+            return f"${value/1e6:.1f} million"
+        else:
+            return f"${value/1e6:.0f} million"
+
+    else:
+        return None
+
+
+def format_number_as_text(value):
+    """Format a number as text with commas"""
+
+    return f"{value:,.0f}"
 
 
 def create_chart_2() -> pd.DataFrame:
@@ -38,27 +71,30 @@ def create_chart_2() -> pd.DataFrame:
         chart_2_data.loc[:, ["year", "country_name", "fossil_fuel_subsidies"]]
         .pipe(_add_max, "fossil_fuel_subsidies")
         .assign(fossil_fuel_subsidies=lambda d: d.fossil_fuel_subsidies * -1)
-        .assign(max_value=lambda d: d.max_value.apply(format_to_billion))
+        .assign(max_value=lambda d: d.max_value.apply(annotate_number))
+        .assign(value_annotate = lambda d: (d.fossil_fuel_subsidies*-1).apply(annotate_number)
+                )
         .pivot(
-            index=["country_name", "year"],
+            index=["country_name", "year", "value_annotate"],
             columns="max_value",
             values="fossil_fuel_subsidies",
         )
         .reset_index()
-        .assign(indicator="fossil_fuel_subsidies")
+        .assign(indicator="fossil fuel subsidies")
     )
 
     _cf = (
         chart_2_data.loc[:, ["year", "country_name", "climate_finance_commitments"]]
         .pipe(_add_max, "climate_finance_commitments")
-        .assign(max_value=lambda d: d.max_value.apply(format_to_billion))
+        .assign(max_value=lambda d: d.max_value.apply(annotate_number))
+        .assign(value_annotate = lambda d: d.climate_finance_commitments.apply(annotate_number))
         .pivot(
-            index=["country_name", "year"],
+            index=["country_name", "year", "value_annotate"],
             columns="max_value",
             values="climate_finance_commitments",
         )
         .reset_index()
-        .assign(indicator="climate_finance_commitments")
+        .assign(indicator="climate finance commitments")
     )
 
     return pd.concat([_ffs, _cf], ignore_index=True)
