@@ -5,21 +5,14 @@ from bblocks.dataframe_tools.add import add_income_level_column
 
 from scripts.config import Paths
 from scripts.logger import logger
-from scripts.utils import convert_entities, add_aggregates
-
-FFS = pd.read_csv(
-    Paths.raw_data / "fossil_fuel_subsidies.csv"
-)  # Fossil Fuel Subsidies data
-CF = pd.read_parquet(
-    Paths.raw_data / "climate_finance_provider_perspective_data.parquet"
-)  # Climate Finance data
+from scripts.utils import convert_entities
 
 
-def format_ffs_data() -> None:
+def format_ffs_data(ffs_data: pd.DataFrame) -> None:
     """Format the Fossil Fuel Subsidies data"""
 
     (
-        FFS.rename(
+        ffs_data.rename(
             columns={"Country": "country_name", "Year": "year", "USD, nominal": "value"}
         )
         .drop(columns=["Source"])
@@ -40,11 +33,11 @@ def format_ffs_data() -> None:
     logger.info("Fossil Fuel Subsidies data formatted and saved to output folder.")
 
 
-def format_cf_data() -> None:
+def format_cf_data(cf_data: pd.DataFrame) -> None:
     """Format the Climate Finance data"""
 
     (
-        CF.loc[lambda d: d.year >= 2010]
+        cf_data.loc[lambda d: d.year >= 2010]
         .rename(columns={"indicator": "marker", "provider": "provider_name"})
         .drop(columns=["methodology", "flow_type", "oecd_provider_code"])
         .groupby(["year", "provider_name"])
@@ -66,6 +59,14 @@ def format_cf_data() -> None:
 
 
 if __name__ == "__main__":
-    format_ffs_data()
-    format_cf_data()
+    # Climate Finance data
+    raw_cf_df = pd.read_parquet(
+        Paths.raw_data / "climate_finance_provider_perspective_data.parquet"
+    )
+    # Fossil Fuel Subsidies data
+    raw_ffs_df = pd.read_csv(Paths.raw_data / "fossil_fuel_subsidies.csv")
+
+    format_ffs_data(ffs_data=raw_ffs_df)
+    format_cf_data(cf_data=raw_cf_df)
+
     logger.info("Data formatting complete.")
