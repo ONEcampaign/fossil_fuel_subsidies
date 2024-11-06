@@ -1,6 +1,8 @@
 """Module to run the analysis and create the charts"""
 
+import numpy as np
 import pandas as pd
+from bblocks import convert_id
 
 from scripts.logger import logger
 from scripts.utils import convert_entities
@@ -86,8 +88,8 @@ def chart_2_data(climate: pd.DataFrame, subsidies: pd.DataFrame) -> pd.DataFrame
         .sort_values(["iso3_code", "year"])
         .assign(
             currency="US$ current",
-            country_name=lambda d: convert_entities(
-                d.iso3_code, from_type="ISO3", to_type="name_short"
+            country_name=lambda d: convert_id(
+                d.iso3_code, from_type="ISO3", to_type="name_short", not_found=np.nan
             ),
         )
         .reset_index(drop=True)
