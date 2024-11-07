@@ -105,19 +105,19 @@ year,provider_name,value,iso3_code,units,income_level
 2020,Denmark,532560608.0,DNK,USD current,High income
 2021,Denmark,668504864.0,DNK,USD current,High income
 2022,Denmark,591995416.0,DNK,USD current,High income
-2010,EU Institutions,1250834286.0,,USD current,
-2011,EU Institutions,1738967207.0,,USD current,
-2012,EU Institutions (excl. EIB),2376623208.625,,USD current,
-2013,EU Institutions (excl. EIB),2750500651.3984375,,USD current,
-2014,EU Institutions (excl. EIB),1816509504.0,,USD current,
-2015,EU Institutions (excl. EIB),3191873885.25,,USD current,
-2016,EU Institutions (excl. EIB),5880199734.375,,USD current,
-2017,EU Institutions (excl. EIB),5532768422.6875,,USD current,
-2018,EU Institutions (excl. EIB),5565185976.0,,USD current,
-2019,EU Institutions (excl. EIB),5595418965.0625,,USD current,
-2020,EU Institutions (excl. EIB),4579815808.0,,USD current,
-2021,EU Institutions (excl. EIB),5723814254.25,,USD current,
-2022,EU Institutions (excl. EIB),7838769823.957031,,USD current,
+2010,EU Institutions,1250834286.0,EU Institutions,USD current,
+2011,EU Institutions,1738967207.0,EU Institutions,USD current,
+2012,EU Institutions (excl. EIB),2376623208.625,EU Institutions (excl. EIB),USD current,
+2013,EU Institutions (excl. EIB),2750500651.3984375,EU Institutions (excl. EIB),USD current,
+2014,EU Institutions (excl. EIB),1816509504.0,EU Institutions (excl. EIB),USD current,
+2015,EU Institutions (excl. EIB),3191873885.25,EU Institutions (excl. EIB),USD current,
+2016,EU Institutions (excl. EIB),5880199734.375,EU Institutions (excl. EIB),USD current,
+2017,EU Institutions (excl. EIB),5532768422.6875,EU Institutions (excl. EIB),USD current,
+2018,EU Institutions (excl. EIB),5565185976.0,EU Institutions (excl. EIB),USD current,
+2019,EU Institutions (excl. EIB),5595418965.0625,EU Institutions (excl. EIB),USD current,
+2020,EU Institutions (excl. EIB),4579815808.0,EU Institutions (excl. EIB),USD current,
+2021,EU Institutions (excl. EIB),5723814254.25,EU Institutions (excl. EIB),USD current,
+2022,EU Institutions (excl. EIB),7838769823.957031,EU Institutions (excl. EIB),USD current,
 2013,Estonia,334193.5625,EST,USD current,High income
 2014,Estonia,752315.9375,EST,USD current,High income
 2015,Estonia,1362709.375,EST,USD current,High income
