@@ -16,8 +16,8 @@ SM_COUNTRIES = [
     "CAN",
     "JPN",
     "SAU",
-    "AZE",  # Azerbaijan
-    # "ARE", # UAE
+    # "AZE",  # Azerbaijan
+    "ARE", # UAE
     # "BEL" # Belgium
 ]
 
